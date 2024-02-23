@@ -1,3 +1,7 @@
+I have a github repository and I created a wiki page for it. And in that wiki there are like multiple pages. So I store these page names based on the titles in a different database. So I've subscribed to a github repository webhook that sends events whenever these wiki pages are updated. If there's a change in the title of any of these wiki pages, I need to delete it and insert the correct name in the database. So the github web event just sends edited action and the new page name. So however I type back which page actually got renamed, I need python code for that.
+
+
+
 Request URL: https://smee.io/Yx5uLiANvqiqWL
 Request method: POST
 Accept: */*
